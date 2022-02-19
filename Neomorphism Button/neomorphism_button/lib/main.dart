@@ -21,14 +21,9 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class TabsScreen extends StatefulWidget {
+class TabsScreen extends StatelessWidget {
   const TabsScreen({Key? key}) : super(key: key);
 
-  @override
-  State<TabsScreen> createState() => _TabsScreenState();
-}
-
-class _TabsScreenState extends State<TabsScreen> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
